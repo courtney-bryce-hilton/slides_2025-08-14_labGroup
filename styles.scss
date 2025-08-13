@@ -1,0 +1,191 @@
+/*-- scss:default Uni Auckland colour --*/
+$darkBlue: #00467F;
+$lightBlue: #009AC7;
+$lightLightBlue: #4dcccc;
+$silver: #8D9091;
+$gold-highlight: #fff599;
+$light-orange: #f4a261;
+
+/*-- scss:rules --*/
+
+h2 {
+    background-color: $darkBlue !important;
+    color: white !important;
+    display: table !important;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 10px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    text-align: center !important;
+}
+
+.box1 {
+    background-color: $darkBlue !important;
+    color: white !important;
+    display: table !important;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 10px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.date {
+    font-size: 60%;
+}
+
+.center {
+    margin: auto !important;
+    text-align: center;
+}
+
+.center2 {
+    margin: auto !important;
+    text-align: center;
+    display: block;
+}
+
+.huge {
+    font-size: 175%;
+}
+
+img.hov {
+    max-width: 80%;
+}
+
+img.hov:hover {
+    max-width: 100%;
+}
+
+.hide {
+    display: none;
+  }
+
+#title-logo {
+    height: 120px;
+    // width: 250px;
+}
+
+.title {
+    color: $gold-highlight !important;
+    font-size: 1.7em !important;
+}
+
+.subtitle {
+    font-size: 0.8em !important;
+}
+
+.bit-smaller {
+    font-size: 80%;
+}
+
+.normal {
+  font-size: 1em;
+}
+
+/*-- scss:testing --*/
+
+.container-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+  
+.element {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: $lightBlue;
+    border-radius: 10px;
+    color: white;
+    text-align: center !important;
+}
+
+.element2 {
+    margin: 10px 0;
+    padding: 7px;
+    background-color: $lightLightBlue;
+    border-radius: 10px;
+    color: white;
+    text-align: center !important;
+    font-size: 0.8em;
+}
+
+.line {
+    width: 2px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.accent {
+    color: $gold-highlight !important;
+}
+
+/*-- scss: implementing fork lines for flow-chart --*/
+
+$fork-line-width: 100;
+// 0.7071068 is the cosine of 0.7853982, which is 45 degrees in radians
+$adjacent: round(($fork-line-width * 0.7071068)/2 * 100) / 100;
+// $adjacent: round(($fork-line-width * cos(45deg))/2 * 100) / 100;
+
+.fork-lines {
+  position: relative;
+  width: 80px;
+  height: 60px;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    width: calc(#{$fork-line-width}px);
+    height: 2px;
+    background-color: black;
+    top: 50%;
+  }
+
+  &:before {
+    left: calc(50% - #{$adjacent}px);
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  &:after {
+    left: calc(50% + #{$adjacent}px);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+}
+
+.line-above::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+video::-webkit-media-controls-enclosure {
+    display:none !important;
+}
+video::-webkit-media-controls-overlay-play-button {
+    display:none !important;
+}
+video::-webkit-media-controls-start-playback-button {
+    display:none !important;
+}
+

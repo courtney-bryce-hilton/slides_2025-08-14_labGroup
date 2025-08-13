@@ -1,0 +1,308 @@
+---
+title: "perceptions of tonal hierarchies in infants, children, and adults"
+subtitle: "Lab Group Meeting"
+author: "-<br>Courtney B. Hilton"
+format:
+  revealjs:
+    theme: [default, styles.scss]
+    slide-number: true
+    center-title-slide: true
+    auto-stretch: false
+    template-partials:
+      - title-slide.html
+title-slide-attributes:
+  data-background-color: "#00467F"
+  data-background-size: contain
+date: 2025-08-14
+date-format: long
+title-logo: "./media/logos/auckland.png"
+---
+
+## what are tonal hierarchies?
+
+::::::::::::::: circle-container
+::: {.circle onclick="playSound(0)"}
+0
+:::
+
+::: {.circle onclick="playSound(1)"}
+1
+:::
+
+::: {.circle onclick="playSound(2)"}
+2
+:::
+
+::: {.circle onclick="playSound(3)"}
+3
+:::
+
+::: {.circle onclick="playSound(4)"}
+4
+:::
+
+::: {.circle onclick="playSound(5)"}
+5
+:::
+
+::: {.circle onclick="playSound(6)"}
+6
+:::
+
+::: {.circle onclick="playSound(7)"}
+7
+:::
+
+::: {.circle onclick="playSound(8)"}
+8
+:::
+
+::: {.circle onclick="playSound(9)"}
+9
+:::
+
+::: {.circle onclick="playSound(10)"}
+10
+:::
+
+::: {.circle onclick="playSound(11)"}
+11
+:::
+:::::::::::::::
+
+<link rel="stylesheet" href="./scripts/tonal-hierarchies-demo_styles.css">
+
+```{=html}
+<script src="./scripts/tonal-hierarchies-demo_script.js"></script>
+```
+
+<audio class="media_example hide" controls>
+
+<source src="media/audio/0_4_7.mp3" type="audio/mp3">
+
+</audio>
+
+## what are tonal hierarchies? {.center}
+
+![](media/images/probe_tone.png){width="50%"}
+
+
+## measuring variation in tonal hierarchies {.bit-smaller}
+
+::: center
+![](media/images/project1.png){width="100%"}
+:::
+
+## measuring variation in tonal hierarchies {.bit-smaller}
+
+::: center
+![](media/images/project2.png){width="100%"}
+:::
+
+## measuring variation in tonal hierarchies {.bit-smaller}
+
+::: center
+![](media/images/project3.png){width="100%"}
+:::
+
+##  Tonic / Tone Guesser
+
+::: center
+![](media/images/ages.png){width="50%"}
+:::
+
+##  Tonic / Tone Guesser
+
+::: center
+![](media/images/countries.png){width="60%"}
+:::
+
+##  Tonic / Tone Guesser
+
+::: center
+![](media/images/language.png){width="60%"}
+:::
+
+---
+
+<video class="media_example" controls>
+  <source src="media/videos/tonic-music-example.mp4" type="video/mp4">
+</video>
+
+## what are tonal hierarchies?
+
+::: center
+![](media/images/probe_tone.png){width="50%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/pitch_class_billboard.png){width="60%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/pitch_class_billboard-line.png){width="60%"}
+:::
+
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/pitch_class_nhs.png){width="60%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/pitch_class_nhs-line.png){width="60%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/pitch_class_combined.png){width="90%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/billboard_vs_nhs.png){width="60%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/MDS.png){width="50%"}
+:::
+
+## Tonal Hierarchies in Adults
+
+::: center
+![](media/images/shepard.png){width="50%"}
+:::
+
+
+# KITKAT {.center}
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/kitkat_photos.png){width="50%"}
+:::
+
+<audio class="media_example hide" controls>
+  <source src="media/audio/wrong-answer.mp3" type="audio/mp3">
+</audio>
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/kitkat_recruitment_over_time.png){width="70%"}
+:::
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/kitkat_ages.png){width="40%"}
+:::
+
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/accuracy_over_ages.png){width="70%"}
+:::
+
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/accuracy_over_ages-trunc.png){width="70%"}
+:::
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/accuracy_over_condition_16.png){width="70%"}
+:::
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/accuracy_over_condition_9_16.png){width="70%"}
+:::
+
+
+## Tonal Hierarchies in Kids
+
+::: center
+![](media/images/accuracy_over_condition_3_9.png){width="70%"}
+:::
+
+# Tonic-Baby
+
+## Tonal Hierarchies in Babies {.center}
+
+<video class="media_example" controls>
+  <source src="media/videos/intro.mp4" type="video/mp4">
+</video>
+
+
+## Tonal Hierarchies in Babies {.center}
+
+<video class="media_example" controls>
+  <source src="media/videos/tonic-baby-example-1009.mp4" type="video/mp4">
+</video>
+
+## Tonal Hierarchies in Babies
+
+::: center
+![](media/images/tonic-baby-diagram.png){width="90%"}
+:::
+
+## Tonal Hierarchies in Babies
+
+::: center
+![](media/images/1015_2.png){width="100%"}
+:::
+
+## Tonal Hierarchies in Babies
+
+::: center
+![](media/images/1015_2.png){width="100%"}
+:::
+
+## Tonal Hierarchies in Babies
+
+::: center
+![](media/images/looking-time.png){width="60%"}
+:::
+
+## Tonal Hierarchies in Babies
+
+::: center
+![](media/images/overall_looking_time.png){width="60%"}
+:::
+
+
+## Pupils {.center}
+
+<video class="media_example" controls>
+  <source src="media/videos/pupil_demo.mp4" type="video/mp4">
+</video>
+
+
+
+---
+
+## thanks for your attention {.center}
+
+```{=html}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="zoomer.js"></script>
+<script type="text/javascript" src="audio_player.js"></script>
+```
+
