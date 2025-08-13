@@ -1,16 +1,16 @@
 const probes = [
-    "./../media/audio/probes/probe_00.mp3",
-    "./../media/audio/probes/probe_01.mp3",
-    "./../media/audio/probes/probe_02.mp3",
-    "./../media/audio/probes/probe_03.mp3",
-    "./../media/audio/probes/probe_04.mp3",
-    "./../media/audio/probes/probe_05.mp3",
-    "./../media/audio/probes/probe_06.mp3",
-    "./../media/audio/probes/probe_07.mp3",
-    "./../media/audio/probes/probe_08.mp3",
-    "./../media/audio/probes/probe_09.mp3",
-    "./../media/audio/probes/probe_10.mp3",
-    "./../media/audio/probes/probe_11.mp3"
+    "./media/audio/probes/probe_00.mp3",
+    "./media/audio/probes/probe_01.mp3",
+    "./media/audio/probes/probe_02.mp3",
+    "./media/audio/probes/probe_03.mp3",
+    "./media/audio/probes/probe_04.mp3",
+    "./media/audio/probes/probe_05.mp3",
+    "./media/audio/probes/probe_06.mp3",
+    "./media/audio/probes/probe_07.mp3",
+    "./media/audio/probes/probe_08.mp3",
+    "./media/audio/probes/probe_09.mp3",
+    "./media/audio/probes/probe_10.mp3",
+    "./media/audio/probes/probe_11.mp3"
 ];
 
 const newOrder = [0, 10, 5, 9, 2, 3, 11, 1, 8, 4, 7, 6];
