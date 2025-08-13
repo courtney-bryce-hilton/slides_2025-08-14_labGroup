@@ -20,7 +20,7 @@ title-logo: "./media/logos/auckland.png"
 
 ## what are tonal hierarchies?
 
-::::::::::::::: circle-container
+::: circle-container
 ::: {.circle onclick="playSound(0)"}
 0
 :::
@@ -68,19 +68,15 @@ title-logo: "./media/logos/auckland.png"
 ::: {.circle onclick="playSound(11)"}
 11
 :::
-:::::::::::::::
+:::
 
 <link rel="stylesheet" href="./scripts/tonal-hierarchies-demo_styles.css">
-
-```{=html}
 <script src="./scripts/tonal-hierarchies-demo_script.js"></script>
-```
 
 <audio class="media_example hide" controls>
-
-<source src="media/audio/0_4_7.mp3" type="audio/mp3">
-
+  <source src="media/audio/0_4_7.mp3" type="audio/mp3">
 </audio>
+ 
 
 ## what are tonal hierarchies? {.center}
 
